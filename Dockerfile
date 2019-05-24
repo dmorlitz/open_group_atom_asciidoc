@@ -29,6 +29,7 @@ RUN gem install asciidoctor-pdf --pre
 RUN gem install rouge
 RUN gem install pygments.rb
 RUN gem install coderay
+RUN gem install unicode_utils
 
 RUN apm install asciidoc-assistant
 RUN apm install autocomplete-asciidoc
